@@ -1,35 +1,42 @@
 /* mobile s */
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) {
     body{
         margin: 0;
         padding: 0;
+        margin-left: 1%;
+        padding-top: 0;
+        padding-bottom: -5%;
     }
     .site-header {
         margin-bottom: 5%;
         padding-top: 8%;
-        margin-top: 5%;
+        margin-top: -5%;
         font-size: 1.2rem;
+        margin-left: -1%;
+    }
+    .site-footer{
+        margin-left: -1%;
     }
 }
 
 /* mobile m */
-@media screen and (max-width:375px) {
+@media screen and (min-width:375px) {
     .site-header {
-        margin-left: -2%;
-        margin-right: -2%;
+        margin-left: -1%;
+        margin-right: 0;
         margin-bottom: 5%;
         padding-top: 8%;
         margin-top: 0;
         font-size:1rem;
     }
     .site-footer{
-        margin-left: -2%;
-        margin-right: -2%;
+        margin-left: -1%;
+        margin-right: 0;
         font-size: 1.2rem;
     }
     .site-main{
         font-size: large;
-        margin-left: -2%;
+        margin-left: 0%;
         margin-top: -5%;
     }
 }
@@ -39,8 +46,8 @@
     .site-header {
         margin-bottom: 10%;
         padding-top: 15%;
-        margin-left: -2%;
-        margin-right: -2%;
+        margin-left: -1%;
+        margin-right: 0;
         margin-top: -2%;
         /* width: 100%; */
     }
@@ -66,8 +73,8 @@
     .site-footer {
         padding-top: 8%;
         padding-bottom: 8%;
-        margin-left: -2%;
-        margin-right: -2%;
+        margin-left: -1%;
+        margin-right: 0;
     }
 
 }
@@ -80,8 +87,26 @@
         justify-content: left;
         padding: 15px;
         justify-content: space-between;
-        font-size: xx-large;
-
+        
+    }
+    .site-nav{
+        margin-bottom: 5%;
+        margin-top: 0%;
+        font-size: x-small;
+    }
+    body{
+        font-size: small;
+        
+    }
+    .site-header{
+        font-size: small;
+    }
+    .site-footer{
+        font-size: small;
+    }
+    .feature{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
@@ -134,11 +159,11 @@
 @media screen and (min-width:1440px) {
     .site-main {
         padding: 0;
-        margin-bottom: 2%;
+        margin-bottom: 0;
         margin-left: 5%;
         flex-direction: row;
         justify-content: space-between;
-        border-left: -10%;
+        border-left: 0;
         font-size: 2rem;
         justify-content: left;
 
@@ -147,7 +172,7 @@
     .site-main .features {
         flex-direction: row;
         justify-content: space-around;
-        margin-left: -8%;
+        margin-left: 0;
         justify-items: left;
         font-size: 2rem;
     }
